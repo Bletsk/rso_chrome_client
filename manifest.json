@@ -14,20 +14,20 @@
   //============================================================================
 
   // http://code.google.com/chrome/extensions/browserAction.html
-  "browser_action": {
-    "default_icon":  "icons/icon19.png", // optional
-    "default_title": "Action Title",     // optional; shown in tooltip
-    "default_popup": "src/popup.html"    // optional
-  },
+  // "browser_action": {
+  //   "default_icon":  "icons/icon19.png", // optional
+  //   "default_title": "Action Title",     // optional; shown in tooltip
+  //   "default_popup": "src/popup.html"    // optional
+  // },
 
   // http://code.google.com/chrome/extensions/pageAction.html
-  /*
-  "page_action": {
-    "default_icon":  "icons/icon19.png", // optional
-    "default_title": "Action Title",     // optional; shown in tooltip
-    "default_popup": "src/popup.html"    // optional
-  },
-  */
+  
+  // "page_action": {
+  //   "default_icon":  "icons/icon19.png", // optional
+  //   "default_title": "Action Title",     // optional; shown in tooltip
+  //   "default_popup": "src/popup.html"    // optional
+  // },
+  
 
   // http://code.google.com/chrome/extensions/themes.html
   /*
@@ -73,13 +73,13 @@
 
   // PACKAGED APP
   // http://code.google.com/chrome/extensions/apps.html
-  /*
+  
   "app": {
     "launch": {
       "local_path": "src/main.html"
     }
   },
-  */
+  
 
   //============================================================================
   // PERMISSIONS
@@ -95,7 +95,7 @@
     "contextMenus", //http:///code.google.com/chrome/extensions/contextMenus.html
     "cookies", // http://code.google.com/chrome/extensions/cookies.html
     // "experimental", // http://code.google.com/chrome/extensions/dev/experimental.html
-    "fileBrowserHandler", // http://goo.gl/GqbrP
+    // "fileBrowserHandler", // http://goo.gl/GqbrP
     "geolocation", // http://dev.w3.org/geo/api/spec-source.html
     "history", // http://code.google.com/chrome/extensions/history.html
     "idle", // http://code.google.com/chrome/extensions/idle.html
